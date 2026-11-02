@@ -1,29 +1,30 @@
-# CLUB-OPS 🚀
-### CYSCOM Operations System
+# Club Ops
 
-A futuristic, full-stack club operations command center built with React, Express, and MongoDB.
+An operations dashboard for a college club (built for CYSCOM): members, departments, events, finance, meetings and projects in one place. Full-stack, built with React, Express and MongoDB.
+
+**Live:** https://club-ops-mango.vercel.app
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Node](https://img.shields.io/badge/node-%3E%3D18-green.svg)
 
 ---
 
-## ✨ Features
+## Features
 
-- 🌌 **Immersive Cover Page** — Boot animation with particle effects
-- 🔐 **JWT Authentication** — Secure login/register with role-based access (Admin/Member/Viewer)
-- 🧠 **Control Room Dashboard** — Orbit UI navigation, animated stats, activity feed
-- 📁 **Departments** — Technical/non-technical sections with tasks, progress tracking
-- 🎯 **Events** — Full event lifecycle with registration, approval checklists, expense tracking
-- 💰 **Finance** — Income/expense/sponsorship tracking with charts
-- 🚀 **Projects** — Tabbed view with status tracking and achievements
-- 📡 **Meetings** — Schedule, agenda, minutes, countdown timer, announcements
-- 🔍 **Global Search** — Search across members, events, projects
-- 🔔 **Notifications** — Event, meeting, and payment alerts
-- 📱 **Responsive** — Desktop command center + mobile-friendly layout
-- 🛡️ **Security** — Helmet, rate limiting, input validation, NoSQL injection prevention
+- **Immersive Cover Page**: Boot animation with particle effects
+- **JWT Authentication**: Secure login/register with role-based access (Admin/Member/Viewer)
+- **Control Room Dashboard**: Orbit UI navigation, animated stats, activity feed
+- **Departments**: Technical/non-technical sections with tasks, progress tracking
+- **Events**: Full event lifecycle with registration, approval checklists, expense tracking
+- **Finance**: Income/expense/sponsorship tracking with charts
+- **Projects**: Tabbed view with status tracking and achievements
+- **Meetings**: Schedule, agenda, minutes, countdown timer, announcements
+- **Global Search**: Search across members, events, projects
+- **Notifications**: Event, meeting, and payment alerts
+- **Responsive**: Desktop command center + mobile-friendly layout
+- **Security**: Helmet, rate limiting, input validation, NoSQL injection prevention
 
-## 🧱 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -33,7 +34,7 @@ A futuristic, full-stack club operations command center built with React, Expres
 | Auth | JWT, bcrypt, HTTP-only cookies |
 | Security | Helmet, express-rate-limit, joi, mongo-sanitize |
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js >= 18
@@ -41,8 +42,8 @@ A futuristic, full-stack club operations command center built with React, Expres
 
 ### 1. Clone & Install
 ```bash
-git clone https://github.com/your-username/club-ops.git
-cd club-ops
+git clone https://github.com/Mihirbhati18/club_ops_mango.git
+cd club_ops_mango
 npm run install:all
 ```
 
@@ -65,14 +66,14 @@ npm run dev
 - Frontend: http://localhost:5173
 - Backend: http://localhost:5000
 
-### 5. Login with Demo Credentials
+### 5. Log in with the seeded demo accounts (local only)
 | Role | Email | Password |
 |------|-------|----------|
 | Admin | admin@clubops.com | admin123 |
 | Member | arjun@clubops.com | member123 |
 | Viewer | rahul@clubops.com | viewer123 |
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 club-ops/
@@ -95,7 +96,7 @@ club-ops/
 └── .github/                # Contribution templates
 ```
 
-## 🔐 API Endpoints
+## API Endpoints
 
 | Method | Endpoint | Auth | Description |
 |--------|----------|------|-------------|
@@ -111,14 +112,10 @@ club-ops/
 | CRUD | /api/meetings | Role | Meeting ops |
 | GET | /api/search?q= | Yes | Global search |
 
-## 🤝 Contributing
+## Contributing
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
